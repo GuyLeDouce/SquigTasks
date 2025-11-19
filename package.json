@@ -1,0 +1,18 @@
+{
+  "name": "naughty-nice-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for The Naughty & Nice Trials event",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "deploy:commands": "node src/deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
